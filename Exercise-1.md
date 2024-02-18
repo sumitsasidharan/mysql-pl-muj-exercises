@@ -1,11 +1,10 @@
-# 1. Write the SQL queries using Data Definition Language (DDL)
-   statements
-   **Objective:** To perform this practical need to use the below given DDL
-   commands and create the following tables
-   **DDL commands:** create, alter and drop
-   **Tables:** student, student_marksheet, employee, emp_dept and emp_sal
+# 1. Write the SQL queries using Data Definition Language (DDL) statements
 
-(i) Student table
+**Objective:** To perform this practical need to use the below given DDL commands and create the following tables
+**DDL commands:** create, alter and drop
+**Tables:** student, student_marksheet, employee, emp_dept and emp_sal
+
+## (i) Student table
 
 Create database mydatabase
 

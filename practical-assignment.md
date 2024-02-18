@@ -1,4 +1,7 @@
-### 1. display worker name, getting highest salary
+
+## SQL QUERIES
+
+### 1. Display worker name, getting highest salary
 
 ```sql
 SELECT NAME
@@ -16,7 +19,7 @@ ORDER BY NAME DESC;
 ```
 
 
-3) display workers name with the count of workers having similar names
+### 3. Display workers name with the count of workers having similar names
 
 ```sql
 SELECT NAME, COUNT(*) AS COUNT
