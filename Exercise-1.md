@@ -12,7 +12,7 @@ Create database mydatabase
 
 ```sql
 CREATE TABLE student(
-	student_number int,
+  student_number int,
   student_name varchar(30),
   student_address varchar(30),
   student_dob date,
@@ -24,7 +24,7 @@ CREATE TABLE student(
 
 ```sql
 CREATE TABLE student_marksheet(
-	student_number int primary key,
+  student_number int primary key,
   student_sem int,
   total_marks int
 );
@@ -48,9 +48,9 @@ CREATE TABLE employee(
 
 ```sql
 CREATE TABLE emp_dept(
-	emp_number int,
+  emp_number int,
   empdept_name varchar(30),
-	emp_deptno int
+  emp_deptno int
 );
 ```
 
