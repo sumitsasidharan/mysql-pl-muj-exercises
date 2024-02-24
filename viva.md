@@ -40,6 +40,19 @@ UPDATE table_name SET column1 = value1 WHERE condition;
 DELETE FROM table_name WHERE condition;
 ```
 
+DCL (Data Control Language): DCL queries are used to control access to data stored in the database. They manage user privileges and permissions, ensuring that only authorized users can access or manipulate data.
+
+GRANT: Used to provide specific privileges to users or roles.
+REVOKE: Used to revoke previously granted privileges from users or roles.
+Example:
+
+```sql
+GRANT SELECT, INSERT ON table_name TO user_name;
+REVOKE DELETE ON table_name FROM user_name;
+```
+
+These queries are crucial for ensuring data security and integrity within a database system by controlling who can access, modify, or delete data.
+
 ### What is Join, discuss its types.
 
 In SQL, a JOIN operation combines rows from two or more tables based on a related column between them. The JOIN operation allows you to retrieve data from multiple tables simultaneously, enabling you to correlate data across different tables based on common columns. There are several types of JOIN operations in SQL:
